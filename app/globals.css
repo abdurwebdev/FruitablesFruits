@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+.slick-slide>div
+{
+    margin:0 10px;
+}
+/* styles.css */
+
+.slider-container {
+    width: 30%; 
+    margin: 0 auto; 
+  }
+  @media(max-width:600px)
+  {
+    .slider-container {
+        width: 90%; 
+        margin: 0 auto; 
+      }
+  }
+  
+  
+  .slick-dots li button::before {
+    color: #000; 
+  }
+  
